@@ -6,7 +6,7 @@
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 10:42:41 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/10/15 23:14:16 by etomiyos         ###   ########.fr       */
+/*   Updated: 2022/10/16 12:34:17 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	init_fd_data(t_pipex *p, char *argv[])
 {
-	outfile_fd(p, argv);
 	infile_fd(p, argv);
+	outfile_fd(p, argv);
 }
 
 void	outfile_fd(t_pipex *p, char *argv[])
